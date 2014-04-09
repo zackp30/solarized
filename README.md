@@ -18,7 +18,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `octopress-solarized`, to the `gem` block of `_config.yml`, like so:
+```yaml
+gems:
+  - octopress-codefence
+  - octopress-solarized
+```
+
+And now try out with:
+
+    ```ruby title:"A test." mark:1,2
+    def test(to_print)                                                                                  
+      puts to_print                                                                                                
+    end
+    ```
 
 ## Contributing
 
